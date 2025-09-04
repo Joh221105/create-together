@@ -12,7 +12,9 @@ const Landing = () => {
         >
           Work
         </button>
-        <button className="px-8 py-4 text-2xl rounded-lg bg-green-600 text-white hover:bg-green-700 transition">
+        <button 
+          onClick = {() => navigate("/game")}
+          className="px-8 py-4 text-2xl rounded-lg bg-green-600 text-white hover:bg-green-700 transition">
           Play
         </button>
       </div>
