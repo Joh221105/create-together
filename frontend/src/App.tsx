@@ -4,6 +4,7 @@ import LoginScreen from "./pages/LoginScreen";
 import GamePage from "./pages/GamePage";
 import UnkownRoute from "./pages/UnknownRoute";
 import SignUpPage from "./pages/SignUpPage";
+import GuestRoomSetup from "./pages/GuestRoomSetup";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route path="/login" element={<LoginScreen />} />
       <Route path="/game" element={<GamePage />} />
       <Route path="/signup" element={<SignUpPage />} />
+      <Route path="/guest-room" element={<GuestRoomSetup />} />
       <Route path="*" element={<UnkownRoute />} />
     </Routes>
   );

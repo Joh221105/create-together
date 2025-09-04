@@ -32,7 +32,9 @@ const LoginScreen = () => {
 
         <hr className="my-2 border-gray-300" />
 
-        <button className="px-6 py-3 rounded-lg bg-gray-300 text-gray-800 hover:bg-gray-400 transition">
+        <button 
+            onClick={() => navigate("/guest-room")}
+            className="px-6 py-3 rounded-lg bg-gray-300 text-gray-800 hover:bg-gray-400 transition">
           Continue as Guest
         </button>
         {/* Home button */}
