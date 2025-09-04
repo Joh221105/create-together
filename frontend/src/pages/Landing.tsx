@@ -1,40 +1,11 @@
 const Landing = () => {
   return (
-    <div
-      style={{
-        minHeight: "100vh",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-        background: "#f5f5f5",
-      }}
-    >
-      <div style={{ display: "flex", gap: "2rem" }}>
-        <button
-          style={{
-            padding: "1rem 2rem",
-            fontSize: "1.5rem",
-            borderRadius: "8px",
-            border: "none",
-            background: "#007bff",
-            color: "#fff",
-            cursor: "pointer",
-          }}
-        >
+    <div className="min-h-screen flex flex-col justify-center items-center bg-gray-100">
+      <div className="flex gap-8">
+        <button className="px-8 py-4 text-2xl rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition">
           Work
         </button>
-        <button
-          style={{
-            padding: "1rem 2rem",
-            fontSize: "1.5rem",
-            borderRadius: "8px",
-            border: "none",
-            background: "#28a745",
-            color: "#fff",
-            cursor: "pointer",
-          }}
-        >
+        <button className="px-8 py-4 text-2xl rounded-lg bg-green-600 text-white hover:bg-green-700 transition">
           Play
         </button>
       </div>
