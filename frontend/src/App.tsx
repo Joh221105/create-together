@@ -3,6 +3,7 @@ import Landing from "./pages/Landing";
 import LoginScreen from "./pages/LoginScreen";
 import GamePage from "./pages/GamePage";
 import UnkownRoute from "./pages/UnknownRoute";
+import SignUpPage from "./pages/SignUpPage";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Route path="/" element={<Landing />} />
       <Route path="/login" element={<LoginScreen />} />
       <Route path="/game" element={<GamePage />} />
+      <Route path="/signup" element={<SignUpPage />} />
       <Route path="*" element={<UnkownRoute />} />
     </Routes>
   );
